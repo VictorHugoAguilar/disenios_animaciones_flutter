@@ -1,4 +1,4 @@
-import 'package:app_backgrounds_customs/src/pages/headers_page.dart';
+import 'package:app_backgrounds_customs/src/pages/animaciones_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Diseños de BackGrouds',
-      home: HeadersPage(),
+      home: AnimacionesPage(),
     );
   }
 }

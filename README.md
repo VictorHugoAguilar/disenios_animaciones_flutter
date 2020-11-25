@@ -12,6 +12,21 @@
 - Canvas
 - Gradient
 
+## Ejemplos con animaciones 
+
+- Animaciones
+- Curves
+- AnimationController
+- Estado de la animación
+- Repeticiones
+- Tweens
+- Limpieza de controladores de animaciones
+- Animaciones simultáneas sobre el mismo widget
+- Transformaciones
+- Rotaciones
+- Opacidad
+- Movimiento
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
