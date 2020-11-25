@@ -1,6 +1,16 @@
 # app_backgrounds_customs
 
-A new Flutter project.
+## Ejemplos para crear headers con backgrounds personalizados
+
+- CustomPainter
+- Paint
+- LineTo
+- ¿Cómo coloreamos una figura?
+- Diferentes fondos de aplicaciones
+- QuadraticBezierTo
+- Dimensiones donde podemos pintar
+- Canvas
+- Gradient
 
 ## Getting Started
 
