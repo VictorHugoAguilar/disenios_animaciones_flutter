@@ -1,4 +1,5 @@
-# app_backgrounds_customs
+# App Ejemplos en Flutter de Diseño profesional y animaciones. 
+Widgets, Sliders, CustomPainter, AnimationBuilder, Provider, Temas, Slideshow, Progress, Slivers, Tablets y más...
 
 ## Ejemplos para crear headers con backgrounds personalizados
 
@@ -37,6 +38,17 @@
 - Dibujar sobre otros painters
 - Transformación en un widget re-utilizable
 
+## Slideshow - personalizadas
+
+- Pageviews
+- AnimatedContainer
+- Controller
+- Listeners
+- Provider
+- Re-utilizar el widget
+- Multiples instancias de provider para multiples slideshows
+- ChangeNotifierProvider
+- Personalización
 
 ## Getting Started
 
