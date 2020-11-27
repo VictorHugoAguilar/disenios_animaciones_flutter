@@ -27,6 +27,17 @@
 - Opacidad
 - Movimiento
 
+## ProgressBarr circular - animated - CustomPainter personalizado y reutilizable
+
+- Dibujo de arcos
+- Dibujo de círculos
+- Animar custom painters
+- Crear un widget de progreso circular
+- Decoración de las puntas del custom painter
+- Dibujar sobre otros painters
+- Transformación en un widget re-utilizable
+
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
