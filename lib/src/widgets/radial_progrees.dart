@@ -4,10 +4,16 @@ import 'dart:math';
 class RadialProgress extends StatefulWidget {
   final double porcentaje;
   final Color colorPrimario;
+  final double anchoPrimario;
+  final Color colorSecundario;
+  final double anchoSecundario;
 
   const RadialProgress({
     @required this.porcentaje,
     this.colorPrimario = Colors.blue,
+    this.anchoPrimario = 10,
+    this.colorSecundario = Colors.grey,
+    this.anchoSecundario = 1,
   });
 
   @override
@@ -55,6 +61,9 @@ class _RadialProgressState extends State<RadialProgress>
               (widget.porcentaje - diferenciaAnimar) +
                   (diferenciaAnimar * animationController.value),
               widget.colorPrimario,
+              widget.anchoPrimario,
+              widget.colorSecundario,
+              widget.anchoSecundario,
             ),
           ),
         );
@@ -66,15 +75,37 @@ class _RadialProgressState extends State<RadialProgress>
 class _MiRadialProgress extends CustomPainter {
   final double porcentaje;
   final Color colorPrimario;
+  final double anchoPrimario;
+  final Color colorSecundario;
+  final double anchoSecundario;
 
-  _MiRadialProgress(this.porcentaje, this.colorPrimario);
+  _MiRadialProgress(
+    this.porcentaje,
+    this.colorPrimario,
+    this.anchoPrimario,
+    this.colorSecundario,
+    this.anchoSecundario,
+  );
 
   @override
   void paint(Canvas canvas, Size size) {
+    final Gradient gradient = new LinearGradient(
+      colors: <Color>[
+        Color(0xffC012FF),
+        Color(0xff6d05E8),
+        Colors.red,
+      ],
+    );
+
+    final Rect rect = new Rect.fromCircle(
+      center: Offset(0, 0),
+      radius: 180,
+    );
+
     // Circulo completado
     final paint = new Paint()
-      ..strokeWidth = 1
-      ..color = Colors.grey
+      ..strokeWidth = anchoSecundario
+      ..color = colorSecundario
       ..style = PaintingStyle.stroke;
 
     final Offset center = new Offset(size.width * 0.5, size.height * 0.5);
@@ -84,8 +115,10 @@ class _MiRadialProgress extends CustomPainter {
 
     // Arco
     final paintArco = new Paint()
-      ..strokeWidth = 10
-      ..color = colorPrimario
+      ..strokeWidth = anchoPrimario
+      //..color = colorPrimario
+      ..shader = gradient.createShader(rect)
+      ..strokeCap = StrokeCap.round
       ..style = PaintingStyle.stroke;
 
     // Parte que se ira llenando
