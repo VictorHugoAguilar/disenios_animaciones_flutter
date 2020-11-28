@@ -50,7 +50,7 @@ Widgets, Sliders, CustomPainter, AnimationBuilder, Provider, Temas, Slideshow, P
 - ChangeNotifierProvider
 - Personalización
 
-![Slideshow - personalizadas](https://raw.githubusercontent.com/parzibyte/WaterPy/master/assets/ImagenV1.png)
+![Slideshow - personalizadas](https://github.com/VictorHugoAguilar/disenios_animaciones_flutter/blob/main/assets/preview/preview_slideshow.png?raw=true)
 
 ## Pinterest layou y menu
 
