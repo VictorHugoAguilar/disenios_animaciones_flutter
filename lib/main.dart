@@ -1,5 +1,4 @@
-import 'package:app_backgrounds_customs/src/labs/circular_progress_page.dart';
-import 'package:app_backgrounds_customs/src/pages/graficas_circulares_page.dart';
+import 'package:app_backgrounds_customs/src/pages/slideshow_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Diseños de BackGrouds',
-      home: GraficasCircularesPage(),
+      home: SlideShowPage(),
     );
   }
 }

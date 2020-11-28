@@ -63,7 +63,7 @@ class _CircularProgressPageState extends State<CircularProgressPage>
           height: 300,
           // color: Colors.deepPurple,
           child: CustomPaint(
-            painter: _miRadialProgress(porcentaje),
+            painter: _MiRadialProgress(porcentaje),
           ),
         ),
       ),
@@ -71,10 +71,10 @@ class _CircularProgressPageState extends State<CircularProgressPage>
   }
 }
 
-class _miRadialProgress extends CustomPainter {
+class _MiRadialProgress extends CustomPainter {
   final porcentaje;
 
-  _miRadialProgress(this.porcentaje);
+  _MiRadialProgress(this.porcentaje);
 
   @override
   void paint(Canvas canvas, Size size) {
