@@ -50,6 +50,21 @@ Widgets, Sliders, CustomPainter, AnimationBuilder, Provider, Temas, Slideshow, P
 - ChangeNotifierProvider
 - Personalización
 
+![Slideshow - personalizadas](https://raw.githubusercontent.com/parzibyte/WaterPy/master/assets/ImagenV1.png)
+
+## Pinterest layou y menu
+
+- Pinterest Layout
+- Diseño de columnas
+- Menú flotante
+- Controladores del scroll
+- Listeners
+- Ocultar y mostrar el menú con scroll
+- Personalización
+- Re-utilización del widget
+- Posicionamiento
+- Enviar funciones como argumento
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
