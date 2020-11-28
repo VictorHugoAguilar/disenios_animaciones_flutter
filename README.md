@@ -13,6 +13,8 @@ Widgets, Sliders, CustomPainter, AnimationBuilder, Provider, Temas, Slideshow, P
 - Canvas
 - Gradient
 
+![Ejemplos para crear headers con backgrounds personalizados](https://github.com/VictorHugoAguilar/disenios_animaciones_flutter/blob/main/assets/preview/preview_slideshow.png?raw=true)
+
 ## Ejemplos con animaciones 
 
 - Animaciones
@@ -28,7 +30,7 @@ Widgets, Sliders, CustomPainter, AnimationBuilder, Provider, Temas, Slideshow, P
 - Opacidad
 - Movimiento
 
-## ProgressBarr circular - animated - CustomPainter personalizado y reutilizable
+ ## ProgressBarr circular - animated - CustomPainter personalizado y reutilizable
 
 - Dibujo de arcos
 - Dibujo de círculos
@@ -37,6 +39,9 @@ Widgets, Sliders, CustomPainter, AnimationBuilder, Provider, Temas, Slideshow, P
 - Decoración de las puntas del custom painter
 - Dibujar sobre otros painters
 - Transformación en un widget re-utilizable
+
+![ProgressBarr circular - animated - CustomPainter personalizado y reutilizable](https://github.com/VictorHugoAguilar/disenios_animaciones_flutter/blob/main/assets/preview/preview_slideshow.png?raw=true)
+
 
 ## Slideshow - personalizadas
 
@@ -64,6 +69,8 @@ Widgets, Sliders, CustomPainter, AnimationBuilder, Provider, Temas, Slideshow, P
 - Re-utilización del widget
 - Posicionamiento
 - Enviar funciones como argumento
+
+![Pinterest layou y menu](https://github.com/VictorHugoAguilar/disenios_animaciones_flutter/blob/main/assets/preview/preview_slideshow.png?raw=true)
 
 ## Getting Started
 
