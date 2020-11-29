@@ -70,6 +70,6 @@ Widgets, Sliders, CustomPainter, AnimationBuilder, Provider, Temas, Slideshow, P
 - Posicionamiento
 - Enviar funciones como argumento
 
-![Pinterest layou y menu](https://github.com/VictorHugoAguilar/disenios_animaciones_flutter/blob/main/assets/preview/preview_slideshow.png?raw=true)
+![Pinterest layou y menu](https://github.com/VictorHugoAguilar/disenios_animaciones_flutter/blob/main/assets/preview/preview_pinterest_menu.png?raw=true)
 
 
