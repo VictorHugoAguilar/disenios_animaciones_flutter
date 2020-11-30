@@ -31,7 +31,10 @@ class _BotonFooter extends StatelessWidget {
         onPressed: () {},
         color: Color(0xffED6762),
         shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.only(topLeft: Radius.circular(050))),
+          borderRadius: BorderRadius.only(
+            topLeft: Radius.circular(050),
+          ),
+        ),
         child: Text(
           'CREATE NEW LIST',
           style: TextStyle(
