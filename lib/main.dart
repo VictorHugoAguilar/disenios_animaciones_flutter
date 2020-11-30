@@ -1,6 +1,5 @@
+import 'package:app_backgrounds_customs/src/pages/sliver_list_page.dart';
 import 'package:flutter/material.dart';
-
-import 'package:app_backgrounds_customs/src/pages/emergency_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Diseños de BackGrouds',
-      home: EmergencyPage(),
+      home: SliverListPage(),
     );
   }
 }

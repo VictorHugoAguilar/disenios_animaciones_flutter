@@ -86,3 +86,15 @@ Widgets, Sliders, CustomPainter, AnimationBuilder, Provider, Temas, Slideshow, P
 - Emular en multiples dispositivos simultáneamente
 
 ![Pinterest layou y menu](https://github.com/VictorHugoAguilar/disenios_animaciones_flutter/blob/main/assets/preview/preview_emergency.png?raw=true)
+
+
+## Sliver List App
+
+- Slivers
+- Sliver AppBar
+- SliverList
+- CustomSliver
+- SliverPersistentHeaderDelegate
+- Botones con bordes redondeados en posiciones específicas
+
+![Sliver List App](https://github.com/VictorHugoAguilar/disenios_animaciones_flutter/blob/main/assets/preview/preview_emergency.png?raw=true)
