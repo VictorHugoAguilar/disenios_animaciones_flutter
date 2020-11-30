@@ -124,7 +124,8 @@ Widgets, Sliders, CustomPainter, AnimationBuilder, Provider, Temas, Slideshow, P
 - Uso de propiedades del tema
 - Uso de colores del tema
 
-![Temas para nuestra aplicación](https://github.com/VictorHugoAguilar/disenios_animaciones_flutter/blob/main/assets/preview/preview_Sliver_ListApp.png?raw=true)
+![Temas para nuestra aplicación](https://github.com/VictorHugoAguilar/disenios_animaciones_flutter/blob/main/assets/preview/preview_launchApp.png?raw=true)
+![Temas para nuestra aplicación](https://github.com/VictorHugoAguilar/disenios_animaciones_flutter/blob/main/assets/preview/preview_launchApp1.png?raw=true)
 
 
 
