@@ -42,7 +42,6 @@ Widgets, Sliders, CustomPainter, AnimationBuilder, Provider, Temas, Slideshow, P
 
 ![ProgressBarr circular - animated - CustomPainter personalizado y reutilizable](https://github.com/VictorHugoAguilar/disenios_animaciones_flutter/blob/main/assets/preview/preview_circularProgressBar.png?raw=true)
 
-
 ## Slideshow - personalizadas
 
 - Pageviews
@@ -86,7 +85,6 @@ Widgets, Sliders, CustomPainter, AnimationBuilder, Provider, Temas, Slideshow, P
 - Emular en multiples dispositivos simultáneamente
 
 ![Pinterest layou y menu](https://github.com/VictorHugoAguilar/disenios_animaciones_flutter/blob/main/assets/preview/preview_emergency.png?raw=true)
-
 
 ## Sliver List App
 
