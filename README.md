@@ -97,4 +97,4 @@ Widgets, Sliders, CustomPainter, AnimationBuilder, Provider, Temas, Slideshow, P
 - SliverPersistentHeaderDelegate
 - Botones con bordes redondeados en posiciones específicas
 
-![Sliver List App](https://github.com/VictorHugoAguilar/disenios_animaciones_flutter/blob/main/assets/preview/preview_emergency.png?raw=true)
+![Sliver List App](https://github.com/VictorHugoAguilar/disenios_animaciones_flutter/blob/main/assets/preview/preview_Sliver_ListApp.png?raw=true)
