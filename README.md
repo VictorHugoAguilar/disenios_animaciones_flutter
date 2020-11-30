@@ -96,3 +96,36 @@ Widgets, Sliders, CustomPainter, AnimationBuilder, Provider, Temas, Slideshow, P
 - Botones con bordes redondeados en posiciones específicas
 
 ![Sliver List App](https://github.com/VictorHugoAguilar/disenios_animaciones_flutter/blob/main/assets/preview/preview_Sliver_ListApp.png?raw=true)
+
+## Animaciones con Animate_do
+
+- Librería Animate_do
+- Diferentes animaciones
+- Navegación entre páginas
+- Intro de Twitter
+- Animar cualquier widget
+- Botton Navigation Bar item con notificaciones
+- Provider
+- AnimateController
+- Extraer controlador de la animación
+- Repetir animaciones
+
+![Animaciones con Animate_do](https://github.com/VictorHugoAguilar/disenios_animaciones_flutter/blob/main/assets/preview/preview_Sliver_ListApp.png?raw=true)
+
+## Temas para nuestra aplicación
+
+- Tema Light
+- Tema Dark
+- Tema personalizado
+- ThemeChanger
+- Provider
+- MultiProvider
+- Switches
+- Uso de propiedades del tema
+- Uso de colores del tema
+
+![Temas para nuestra aplicación](https://github.com/VictorHugoAguilar/disenios_animaciones_flutter/blob/main/assets/preview/preview_Sliver_ListApp.png?raw=true)
+
+
+
+

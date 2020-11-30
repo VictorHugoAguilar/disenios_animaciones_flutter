@@ -1,8 +1,15 @@
-import 'package:app_backgrounds_customs/src/pages/sliver_list_page.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:app_backgrounds_customs/src/theme/theme.dart';
+import 'package:app_backgrounds_customs/src/pages/launcher_page.dart';
 
 void main() {
-  runApp(MyApp());
+  runApp(
+    ChangeNotifierProvider(
+      create: (_) => new ThemeChanger(),
+      child: MyApp(),
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {
@@ -12,7 +19,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Diseños de BackGrouds',
-      home: SliverListPage(),
+      home: LauncherPage(),
     );
   }
 }

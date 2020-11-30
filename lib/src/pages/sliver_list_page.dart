@@ -174,6 +174,7 @@ class _HeaderSliver extends StatelessWidget {
   }
 }
 
+// ignore: unused_element
 class _ListaViews extends StatelessWidget {
   final items = [
     _ListItem('Orange', Color(0xffF08F66)),
