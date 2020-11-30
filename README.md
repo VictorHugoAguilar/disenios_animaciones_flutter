@@ -72,4 +72,17 @@ Widgets, Sliders, CustomPainter, AnimationBuilder, Provider, Temas, Slideshow, P
 
 ![Pinterest layou y menu](https://github.com/VictorHugoAguilar/disenios_animaciones_flutter/blob/main/assets/preview/preview_pinterest_menu.png?raw=true)
 
+## Emergency layout
 
+- Custom Headers
+- Botones
+- Funciones como argumentos
+- Re-utilización de widgets
+- Gradientes
+- Clips
+- Android Physics
+- Animaciones básicas para listviews
+- Stacks
+- Emular en multiples dispositivos simultáneamente
+
+![Pinterest layou y menu](https://github.com/VictorHugoAguilar/disenios_animaciones_flutter/blob/main/assets/preview/preview_pinterest_menu.png?raw=true)
