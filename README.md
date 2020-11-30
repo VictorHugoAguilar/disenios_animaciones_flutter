@@ -85,4 +85,4 @@ Widgets, Sliders, CustomPainter, AnimationBuilder, Provider, Temas, Slideshow, P
 - Stacks
 - Emular en multiples dispositivos simultáneamente
 
-![Pinterest layou y menu](https://github.com/VictorHugoAguilar/disenios_animaciones_flutter/blob/main/assets/preview/preview_pinterest_menu.png?raw=true)
+![Pinterest layou y menu](https://github.com/VictorHugoAguilar/disenios_animaciones_flutter/blob/main/assets/preview/preview_emergency.png?raw=true)
