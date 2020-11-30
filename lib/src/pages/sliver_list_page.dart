@@ -6,7 +6,42 @@ class SliverListPage extends StatelessWidget {
     return Scaffold(
       // body: _ListaViews(),
       //  body: _HeaderSliver(),
-      body: _MainScroll(),
+      body: Stack(
+        children: [
+          _MainScroll(),
+          Positioned(
+            bottom: -10,
+            right: 0,
+            child: _BotonFooter(),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class _BotonFooter extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    final size = MediaQuery.of(context).size;
+    return ButtonTheme(
+      minWidth: size.width * 0.9,
+      height: 100,
+      child: RaisedButton(
+        onPressed: () {},
+        color: Color(0xffED6762),
+        shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.only(topLeft: Radius.circular(050))),
+        child: Text(
+          'CREATE NEW LIST',
+          style: TextStyle(
+            color: Colors.white,
+            fontSize: 18,
+            fontWeight: FontWeight.bold,
+            letterSpacing: 4,
+          ),
+        ),
+      ),
     );
   }
 }
