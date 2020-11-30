@@ -1,5 +1,8 @@
+import 'package:app_backgrounds_customs/src/theme/theme.dart';
 import 'package:flutter/material.dart';
 import 'dart:math' as Math;
+
+import 'package:provider/provider.dart';
 
 class AnimacionesPage extends StatelessWidget {
   @override
@@ -139,10 +142,14 @@ class _CuadradoAnimadoState extends State<CuadradoAnimado>
 class _Rectangulo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    final appTheme = Provider.of<ThemeChanger>(context).currentTheme;
+
     return Container(
       width: 70,
       height: 70,
-      decoration: BoxDecoration(color: Colors.blue),
+      decoration: BoxDecoration(
+        color: appTheme.accentColor,
+      ),
     );
   }
 }

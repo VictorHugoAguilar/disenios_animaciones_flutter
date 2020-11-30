@@ -1,3 +1,4 @@
+import 'package:app_backgrounds_customs/src/theme/theme.dart';
 import 'package:flutter/material.dart';
 import 'package:app_backgrounds_customs/src/widgets/pinterest_menu.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
@@ -9,14 +10,15 @@ class PinterestPage extends StatelessWidget {
     return ChangeNotifierProvider(
       create: (_) => new _MenuModel(),
       child: Scaffold(
-          backgroundColor: Colors.grey,
-          // body: PinterestMenu(),
-          body: Stack(
-            children: <Widget>[
-              PinterestGrid(),
-              _PinterestMenuLocation(),
-            ],
-          )),
+        // backgroundColor: Colors.grey,
+        // body: PinterestMenu(),
+        body: Stack(
+          children: <Widget>[
+            PinterestGrid(),
+            _PinterestMenuLocation(),
+          ],
+        ),
+      ),
     );
   }
 }
@@ -26,6 +28,7 @@ class _PinterestMenuLocation extends StatelessWidget {
   Widget build(BuildContext context) {
     final widthPantalla = MediaQuery.of(context).size.width;
     final mostrarMenu = Provider.of<_MenuModel>(context).mostrarMenu;
+    final appTheme = Provider.of<ThemeChanger>(context).currentTheme;
 
     print('_PinterestMenuLocation $mostrarMenu');
 
@@ -39,9 +42,9 @@ class _PinterestMenuLocation extends StatelessWidget {
           alignment: Alignment.center,
           child: PinterestMenu(
             mostrarMenu: mostrarMenu,
-            backgroundColor: Colors.blueAccent,
-            activeColor: Colors.pinkAccent,
-            inactiveColor: Colors.white,
+            backgroundColor: appTheme.scaffoldBackgroundColor,
+            activeColor: appTheme.accentColor,
+            inactiveColor: Colors.grey,
             items: [
               PinterestButton(
                   icon: Icons.pie_chart, onPressed: () => print('pie_chart')),

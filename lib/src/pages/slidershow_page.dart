@@ -1,16 +1,21 @@
+import 'package:app_backgrounds_customs/src/theme/theme.dart';
 import 'package:flutter/material.dart';
 
 import 'package:app_backgrounds_customs/src/widgets/slideshow.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:provider/provider.dart';
 
 class SlideshowPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    final appTheme = Provider.of<ThemeChanger>(context);
+    final Color accentColor = appTheme.currentTheme.accentColor;
+
     return Scaffold(
       body: Center(
         child: Slideshow(
           puntosArriba: false,
-          colorPrimario: Colors.greenAccent,
+          colorPrimario: appTheme.darkTheme ? accentColor : Colors.pinkAccent,
           colorSecundario: Colors.grey,
           bulletPrimario: 15,
           bulletSecundario: 10,
