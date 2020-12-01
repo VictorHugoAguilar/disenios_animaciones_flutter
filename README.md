@@ -111,6 +111,7 @@ Widgets, Sliders, CustomPainter, AnimationBuilder, Provider, Temas, Slideshow, P
 - Repetir animaciones
 
 ![Animaciones con Animate_do](https://github.com/VictorHugoAguilar/disenios_animaciones_flutter/blob/main/assets/preview/preview_animaciones.png?raw=true)
+![Animaciones con Animate_do](https://github.com/VictorHugoAguilar/disenios_animaciones_flutter/blob/main/assets/preview/preview_animaciones.png?raw=true)
 
 ## Temas para nuestra aplicación
 
