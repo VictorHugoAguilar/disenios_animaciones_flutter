@@ -128,6 +128,15 @@ Widgets, Sliders, CustomPainter, AnimationBuilder, Provider, Temas, Slideshow, P
 ![Temas para nuestra aplicación](https://github.com/VictorHugoAguilar/disenios_animaciones_flutter/blob/main/assets/preview/preview_launchApp.png?raw=true)
 ![Temas para nuestra aplicación](https://github.com/VictorHugoAguilar/disenios_animaciones_flutter/blob/main/assets/preview/preview_launchApp1.png?raw=true)
 
+## Diseño Landscape, portrait y tablets
 
+- Diseño en tabletas
+- Optimizaciones para celulares
+- Landscape y portrait
+- Orientation detection
+- MediaQuery
+- Alinear proporcionalmente
+- Diseño de dos columnas
 
+![Temas para nuestra aplicación](https://github.com/VictorHugoAguilar/disenios_animaciones_flutter/blob/main/assets/preview/preview_launchApp1.png?raw=true)
 
