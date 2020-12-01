@@ -6,20 +6,38 @@ import 'package:provider/provider.dart';
 class SlideShowPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    bool isLarge = false;
+
+    if (MediaQuery.of(context).size.height > 600) {
+      isLarge = true;
+    } else {
+      isLarge = false;
+    }
+
+    final children = [
+      Expanded(child: _MiSlideshow()),
+      Expanded(child: _MiSlideshow()),
+    ];
+
     return ChangeNotifierProvider(
       create: (_) => new SliderModel(),
       child: Scaffold(
-        body: Center(
-          child: Column(
-            children: <Widget>[
-              Expanded(
-                child: _Slides(),
-              ),
-              _Dots(),
-            ],
-          ),
+          body:
+              (isLarge) ? Column(children: children) : Row(children: children)),
+    );
+  }
+}
+
+class _MiSlideshow extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      children: <Widget>[
+        Expanded(
+          child: _Slides(),
         ),
-      ),
+        _Dots(),
+      ],
     );
   }
 }
