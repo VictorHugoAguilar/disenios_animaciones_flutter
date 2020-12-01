@@ -6,7 +6,7 @@ import 'package:app_backgrounds_customs/src/pages/launcher_page.dart';
 void main() {
   runApp(
     ChangeNotifierProvider(
-      create: (_) => new ThemeChanger(2),
+      create: (_) => new ThemeChanger(1),
       child: MyApp(),
     ),
   );
@@ -22,6 +22,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Diseños de BackGrouds',
       home: LauncherPage(),
+      //home: AnimacionesAnimateDoPage(),
     );
   }
 }
