@@ -138,5 +138,5 @@ Widgets, Sliders, CustomPainter, AnimationBuilder, Provider, Temas, Slideshow, P
 - Alinear proporcionalmente
 - Diseño de dos columnas
 
-![Temas para nuestra aplicación](https://github.com/VictorHugoAguilar/disenios_animaciones_flutter/blob/main/assets/preview/preview_launchApp1.png?raw=true)
+![Temas para nuestra aplicación](https://github.com/VictorHugoAguilar/disenios_animaciones_flutter/blob/main/assets/preview/preview_responsive.png?raw=true)
 
